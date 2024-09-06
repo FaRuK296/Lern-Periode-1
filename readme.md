@@ -22,5 +22,5 @@ Heute habe ich diesen Plan auf github.com geschrieben.
 
 ## 6.9.2024
 - [x] Beim Numberguesser mit der if-Schleife schreiben was passiert wenn die geratene Zahl zu hoch oder zu niedrig ist.
-- [] Schreiben was passiert wenn die Zahl erraten wurde und wenn man keine Zahl zwischen 1 und 100 eingibt
+- [x] Schreiben was passiert wenn die Zahl erraten wurde und wenn man keine Zahl zwischen 1 und 100 eingibt
 
