@@ -32,9 +32,9 @@ Heute habe ich mein Programm abgeschlossen, indem ich geschrieben habe was passi
 
 ## 13.9.2024
 - [] Das Programm versuchen zu erweitern: Farben hinzufügen (erst informieren wie es geht),  
-- []
-- []
-- []
+- [] recherchieren und versuchen zu vertehen wie man genau schwierigkeitsgrade in den code einbaut
+- [] Schwierigkeitsgrade zum Beispiel dass man nachdem man die zahl von 1-100 erraten hat eine zahl von 1-500 und 1-1000 erraten muss
+- [] Den Code schön darstaellen dass er übersichtlicher wird zum Beispiel mit // Titel erstellen
 
 
 
