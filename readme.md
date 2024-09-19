@@ -25,7 +25,6 @@ Heute habe ich diesen Plan auf github.com geschrieben.
 - [x] Schreiben was passiert wenn die Zahl erraten wurde und wenn man keine Zahl zwischen 1 und 100 eingibt
 
 ## 6.9.2024
-
 Heute habe ich mein Programm abgeschlossen, indem ich geschrieben habe was passiert wenn die erratene Zahl zu hoch oder zu niederig ist auch was passiert wenn die zahl erraten wurde und wenn man etwas anderes als eine Zahl zwischen 1 und 100 eingibt (das Programm sagt immerwieder das man eine Zahl von 1-100 eingibt bis man es macht.) Ausserdem habe ich gelernt wie man seinen Code auf github hochladen kann was sehr wichtig für später wird weil man das immer wieder machen muss, damit der Lehrer vorbeireitet vor dem Lerngespräch sein kann, indem er sich deinen Code anschaut.
 
 
@@ -37,6 +36,18 @@ Heute habe ich mein Programm abgeschlossen, indem ich geschrieben habe was passi
 - [] Den Code schön darstaellen dass er übersichtlicher wird zum Beispiel mit // Titel erstellen
 
 
+## 13.9.2024
+Heute habe ich schwierigkeitsgrade in mein Programm gemacht
+
+
+
+
+
+## 20.9.2024
+- [] verbessern weil es nicht funktioniert, den code verändern
+- []
+- []
+- []
 
 
 
