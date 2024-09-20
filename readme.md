@@ -44,8 +44,8 @@ Heute habe ich schwierigkeitsgrade in mein Programm gemacht
 
 
 ## 20.9.2024
-- [] verbessern weil es nicht funktioniert, den code verändern
-- []
+- [] Den Code verändern, weil die Schwierigkeitsgrade nicht funktionieren, Variablen etc. einfügen die es zusätzlich braucht
+- [] Den Code perfektionieren indem ich ihn übersichtlich gestalte mit Titlen usw.
 - []
 - []
 
