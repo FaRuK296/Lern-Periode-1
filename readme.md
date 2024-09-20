@@ -50,6 +50,28 @@ Heute habe ich schwierigkeitsgrade in mein Programm gemacht
 - []
 
 
+## 20.9.2024
+Heute habe ich ich den Numberguesser abgeschlossen. Ich hatte einen Fehler.  Ich habe lange gebraucht um heurauzufindenn was falsch ist und dann hat sich herausgestellt dass ich eine Klammer an falscher Stelle hatte. Ich bin sehr zufrieden mit meinem ersten Projekt.
+
+
+## Fertiges Projekt 
+Ich habe einen Numberguesser programmiert
+
+Hier sieht man wie Schwierigkeitsgrade sind:
+![Screenshot 2024-09-20 105813](https://github.com/user-attachments/assets/c4881ab2-d9b0-45c5-b31e-7763aaa25c68)
+
+So sieht es aus wenn man zu viele Versuche gebraucht hat:
+![Screenshot 2024-09-20 105748](https://github.com/user-attachments/assets/84fd9da5-3036-4c99-b9cc-d498828615d2)
+
+
+
+
+## Reflexion
+Ich hatte mich für einen Numberguesser beim Auswählen eines Projektes entschieden, weil es mir persöhnlich gefällt und ich solche Spiele mag. Ich habe mit chatgpt gearbeitet weil ich keine Erfahrung oder Vorwissen im Programmieren habe und ausserdem habe ich mir immer alle Schritte erklären lassen, damit ich verstehe warum man sie mach und was sie bringen. So habe ich viele neue Variablen, Konstanten und neue Varianten um zu programmieren gelernt. 
+
+
+
+
 
 
 
