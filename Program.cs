@@ -29,31 +29,151 @@ namespace LA1_numberguesser
 
             string difficultyChoise = Console.ReadLine();
 
+
+
+
+            // Alte Methode mit int-Konvertierung und Vergleich
+            /*
             // set difficulty level
-            switch (difficultyChoise)
+            
+
+
+
+             Console.Write("Enter the number of the difficulty you want: ")
+             string difficultyChoice = Console.ReadLine();
+             int difficultyChoiceInt;
+             if (int.TryParse(difficultyChoice, out difficultyChoiceInt))
+{
+          switch (difficultyChoiceInt)
+    {
+        case 1: // easy
+            upperLimit = 100;
+            maxGuesses = int.MaxValue; // unlimited attempts
+            break;
+
+        case 2: // medium
+            upperLimit = 500;
+            maxGuesses = 15; // 15 attempts
+            break;
+
+        case 3: // hard
+            upperLimit = 1000;
+            maxGuesses = 10; // 10 attempts
+            break;
+
+        default:
+            Console.WriteLine("Invalid selection, simple mode is used.");
+            upperLimit = 100;
+            maxGuesses = int.MaxValue;
+            break;
+    }
+}
+else
+{
+    Console.WriteLine("Invalid input, please enter a number.");
+}
+*/
+
+            /*
+            // Neue Methode mit string-Eingabe für die Schwierigkeitsauswahl
+            
+            Console.Write("Enter the difficulty (easy, medium, hard): ");
+            string difficultyChoice = Console.ReadLine().ToLower();
+
+            switch (difficultyChoice)
             {
-                case "1": // easy
+                case "easy":
                     upperLimit = 100;
-                    maxGuesses = int.MaxValue; // unlimited attempts
+                    maxGuesses = int.MaxValue;
                     break;
 
-                case "2": // meduim
+                case "medium":
                     upperLimit = 500;
-                    maxGuesses = 15; // 15 attempts
+                    maxGuesses = 15;
                     break;
 
-                case "3":
+                case "hard":
                     upperLimit = 1000;
-                    maxGuesses = 10; // 10 attempts
+                    maxGuesses = 10;
                     break;
+
                 default:
                     Console.WriteLine("Invalid selection, simple mode is used.");
                     upperLimit = 100;
                     maxGuesses = int.MaxValue;
                     break;
             }
-            
-            
+
+            */
+
+
+
+            // Kombinierte Methode für Nummern und Strings
+            Console.Write("Enter the difficulty (1, 2, 3, easy, medium, hard): ");
+            string difficultyChoice = Console.ReadLine().ToLower();
+            int difficultyChoiceInt;
+            bool isInt = int.TryParse(difficultyChoice, out difficultyChoiceInt);
+
+            if (isInt)
+            {
+                // Fall für numerische Eingaben
+                switch (difficultyChoiceInt)
+                {
+                    case 1:
+                        upperLimit = 100;
+                        maxGuesses = int.MaxValue;
+                        break;
+
+                    case 2:
+                        upperLimit = 500;
+                        maxGuesses = 15;
+                        break;
+
+                    case 3:
+                        upperLimit = 1000;
+                        maxGuesses = 10;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid selection, simple mode is used.");
+                        upperLimit = 100;
+                        maxGuesses = int.MaxValue;
+                        break;
+                }
+            }
+            else
+            {
+                // Fall für string-basierte Eingaben
+                switch (difficultyChoice)
+                {
+                    case "easy":
+                        upperLimit = 100;
+                        maxGuesses = int.MaxValue;
+                        break;
+
+                    case "medium":
+                        upperLimit = 500;
+                        maxGuesses = 15;
+                        break;
+
+                    case "hard":
+                        upperLimit = 1000;
+                        maxGuesses = 10;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid selection, simple mode is used.");
+                        upperLimit = 100;
+                        maxGuesses = int.MaxValue;
+                        break;
+                }
+            }
+
+
+
+
+
+
             // generate secret number
             secretNumber = random.Next(lowerLimit, upperLimit + 1);
 
